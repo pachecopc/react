@@ -3,7 +3,6 @@ import Logo from './componentes/imgs/noite.jpg'
 import Tarde from './componentes/imgs/tarde.jpg'
 
 
-
 export default function App(){
   const canal=()=>{
     return ('CFB Cursos')
@@ -13,6 +12,7 @@ export default function App(){
   }
  return (
   <section>
+    <h1>bom dia</h1>
     <p>{'Canal: ' + canal()}</p>
     <p>{curso()}</p>
     <img src={Logo}></img>
