@@ -1,7 +1,5 @@
 import React from 'react'
 import Logo from './componentes/imgs/noite.jpg'
-import Tarde from './componentes/imgs/tarde.jpg'
-
 
 export default function App(){
   const canal=()=>{
@@ -14,10 +12,8 @@ export default function App(){
   <section>
     <h1>bom dia</h1>
     <p>{'Canal: ' + canal()}</p>
-    <p>{curso()}</p>
+    <p>{curso()}</p>    
     <img src={Logo}></img>
-    <img src={Tarde}></img>
   </section>
  )
 }
-

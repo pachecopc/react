@@ -13,7 +13,8 @@ code {
 }
 
 p ,h1{
-  background-color: aqua;
+  background-color: red;
+  width: 150px;
   }
 
   img {
