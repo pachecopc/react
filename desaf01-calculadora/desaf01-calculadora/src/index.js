@@ -1,15 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Calculator from './main/Ccalculator';
+import ReactDOM from 'react-dom/client';
+import App from './App';
 
-import './index.css';
+import GlobalStyles from './global';
 
-const elemento = document.getElementById('root');
-ReactDom.render(
-  <div>
-    <h1>Calculadora</h1>
-    <Calculator/>
-  </div>,
-  elemento);
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <GlobalStyles />
+    <App />
+  </React.StrictMode>
+);
 
